@@ -42,3 +42,26 @@ Setiap Hari akan mendapatkan 1Coin Minima
 ```
 journalctl -u minima_9001 -f
 ```
+
+### Updrage Node
+```
+sudo systemctl stop minima_9001
+```
+```
+sudo rm -rf /home/minima/.minima*
+```
+```
+sudo systemctl start minima_9001
+```
+Masukkan kembali ID Incentive 
+```
+curl 127.0.0.1:9005/incentivecash%20uid:xxx-xxx-xxx-xxx-xxx
+```
+
+### Delete Node
+```
+wget -O minima_remove.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_remove.sh && chmod +x minima_remove.sh && sudo ./minima_remove.sh -p 9001 -x
+```
+```
+sudo rm -rf /home/minima
+```
