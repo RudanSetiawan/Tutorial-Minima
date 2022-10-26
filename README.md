@@ -32,6 +32,11 @@ Disini membutuhkan waktu kurang lebih 30 menit, kalau sudah CTRL+C aja buat ke n
 curl 127.0.0.1:9005/incentivecash%20uid:xxx-xxx-xxx-xxx-xxx
 ```
 
+### Cek Status Versi 
+```
+curl 127.0.0.1:9005/status
+```
+
 ### Cek Reward
 ```
 curl 127.0.0.1:9005/incentivecash | jq
