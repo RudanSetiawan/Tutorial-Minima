@@ -70,3 +70,6 @@ wget -O minima_remove.sh https://raw.githubusercontent.com/minima-global/Minima/
 ```
 sudo rm -rf /home/minima
 ```
+```
+sudo userdel minima
+```
