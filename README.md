@@ -1,5 +1,13 @@
 # Tutorial-Minima
 
+## Minimal Spesifikasi VPS
+
+4Core vCPU
+
+6/8GB RAM
+
+160GB/200GB SSD/NVME Storage
+
 ### Daftar Minima
 https://incentive.minima.global/account/register?inviteCode=NPE3GKBA
 
